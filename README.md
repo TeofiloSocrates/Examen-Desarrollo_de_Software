@@ -1,4 +1,9 @@
 # Examen-Desarrollo_de_Software
+## DATOS ACADÉMICOS
+* **UNIVERSIDAD:** Universidad Nacional de San Antonio Abad del Cusco 
+* **FACULTAD:** Facultad de ingeniería Eléctrica, Electrónica, Informática y Mecánica
+* **ESCUELA PROFESIONAL:** Ingerniería Informática y de Sistemas
+
 ## INTEGRANTES:
 * CALLHUA ALDAZABAL OSBALDO DAN - 174838
 * CORNEJO CRUZ JULIO WILSON - 141672		

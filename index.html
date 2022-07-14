@@ -1,0 +1,61 @@
+<?php
+include("conexion.php");
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Informatica - T</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link href="Estilos.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<center>
+<div class="SubCont">
+<br>
+    <div class="Cont">
+    <form method="post" action="tutoria.php">
+        <br>
+        <table>
+            <tr>
+                <th width="100"></th>
+                <th width="500"><h1 class="h1">Tutorias - Unsaac</h1></th>
+                <th width="150"><img src="unsaac.png" width="150" height="200" ></th>
+            </tr>
+        </table>
+        <div class="Opcion">
+            <label>
+                <input type="radio" name="radioButton" value="1"> Mostrar Alumnos que No serán Tutorados en 2022 - I
+            </label>
+            <p class="link"><a href="reporte.php "><img src="icono-pdf.png" width="30" height="30"></a></p>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="radioButton" value="2"> Mostrar  Alumnos para Tutoría
+            </label>
+            <p class="link"><a href="reporte2.php "><img src="icono-pdf.png" width="30" height="30"></a></p>
+        </div>
+        <div class="boton">
+            <button name="button" class="btn">Buscar</button>
+        </div>        
+        <hr>
+        <center><h3 class="Tex">Resultados</h3></center>    
+            <table class='lista' cellpadding='0' cellspacing='0' width=830px;>
+            <tr>
+                <th class='tablasolicitud'>Codigo</th>
+                <th class='tablasolicitud'>Apellido Paterno</th>
+                <th class='tablasolicitud'>Apellido_Materno</th>
+                <th class='tablasolicitud'>Nombres</th>
+            </tr>
+            </table>
+            <br>
+    </form>
+    </div>
+    <br>
+    <hr>
+</div>
+
+</center>
+</body>
+</html>
